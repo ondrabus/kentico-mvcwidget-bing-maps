@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Kentico.Mvcwidget.BingMaps</id>
+    <version>12.0.0</version>
+    <authors>Ondrabus</authors>
+    <owners>Ondrabus</owners>
+    <projectUrl>https://github.com/ondrabus/kentico-mvcwidget-bing-maps</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Bing Maps widget for Kentico MVC</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Kentico MVC widget Bing maps</tags>
+    <dependencies>
+      <dependency id="Kentico.Libraries" version="12.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="bin\Debug\BingMapsWidget.dll" target="lib\net461\BingMapsWidget.dll" />
+	<file src="Views\Shared\Widgets\BingMapsWidget\_BingMapsWidget.cshtml" target="content\Views\Shared\Widgets\BingMapsWidget\_BingMapsWidget.cshtml" />
+  </files>
+</package>
