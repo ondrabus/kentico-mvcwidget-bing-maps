@@ -20,7 +20,7 @@ namespace KenticoCommunity.BingMapsWidget
             };
             viewModel.ApiKey = ConfigurationManager.AppSettings["BingMapsApiKey"];
 
-            return PartialView("Widgets/KenticoCommunity/BingMapsWidget/_BingMapsWidget", viewModel);
+            return PartialView("Widgets/BingMapsWidget/_BingMapsWidget", viewModel);
         }
     }
 }
